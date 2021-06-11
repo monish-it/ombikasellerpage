@@ -380,6 +380,13 @@ footer {
   .sellcharge .fbutton {
     display: flex;
   }
+  .sellcharge {
+    height: fit-content;
+  }
+
+  /* footer {
+    display: none;
+  } */
 }
 @media (max-width: 450px) {
   .sociallink {
