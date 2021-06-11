@@ -25,6 +25,7 @@
   position: relative;
   font-family: "Mate SC", serif;
   font-style: bold;
+  color: rgb(102, 153, 0);
 }
 .sociallink {
   font-size: 40px;
@@ -98,6 +99,14 @@
   .sociallink {
     left: 150px;
     font-size: 30px;
+  }
+  #title {
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .sociallink {
+    display: none;
   }
   #title {
     font-size: 10px;
