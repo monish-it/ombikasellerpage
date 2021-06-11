@@ -24,8 +24,8 @@
   margin-bottom: auto;
   position: relative;
   font-family: "Mate SC", serif;
-  font-style: bold;
-  color: rgb(102, 153, 0);
+  font-weight: bold;
+  color: rgb(9, 97, 41);
 }
 .sociallink {
   font-size: 40px;
