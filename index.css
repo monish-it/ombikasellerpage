@@ -209,4 +209,11 @@ a {
     font-size: 8px;
     left: 5px;
   }
+  .box {
+    width: 300px;
+  }
+  .slide-img {
+    height: 400px;
+    position: relative;
+  }
 }
