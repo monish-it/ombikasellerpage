@@ -313,7 +313,6 @@ a {
   font-size: 125%;
   font-family: "Baloo Tammudu 2", cursive;
 }
-
 /* responsive */
 
 @media (max-width: 1370px) {
@@ -354,6 +353,9 @@ a {
   }
   #title {
     font-size: 10px;
+  }
+  .sellcharge .popup {
+    width: 70%;
   }
 }
 @media (max-width: 600px) {
