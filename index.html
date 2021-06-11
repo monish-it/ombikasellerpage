@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+
 
 
 
@@ -211,9 +213,40 @@
 
 
         <!-- seller fee -->
-        <div id="sellcharge">
-            <h2>How much we charge as seller fee?</h2>
-            <p>Sellers have to pay only<br> "Marketplace Fees and Closing Fees".<br><br><span id="sellequa">Selling Fees = Market Fees + Closing Fees</span></p>
+        <section id="sellingfeeequation" class="sellcharge">
+            <h2 id="sellhead">How much we charge as seller fee?</h2>
+            <p>Sellers have to pay only<br> "Marketplace Fees and Closing Fees".<br></p>
+            <p class="sellequa"><a class="fbutton" href="#sellfee">Seller Fee</a>=<a class="fbutton" href="#marfee">Market Fee</a>+<a class="fbutton" href="#clofee">Closing Fee</a></p>
+                <div id="sellfee" class="overlay">
+                    <div class="popup">
+                        <h2>Selling Fees</h2>
+                        <a class="close" href="#sellingfeeequation">&times;</a>
+                        <div class="content">
+                            Fees you have to pay.
+                        </div>
+                    </div>
+                </div>  
+                <div id="marfee" class="overlay">
+                    <div class="popup">
+                        <h2>Market Fees</h2>
+                        <a class="close" href="#sellingfeeequation">&times;</a>
+                        <div class="content">
+                            This varies based on product category and starts from 2%.<br>
+                            <a href="https://sellers.ombika.com/marketplace-fees/" target="_blank">Click here for more info</a>
+                        </div>
+                    </div>
+                </div>  
+                <div id="clofee" class="overlay">
+                    <div class="popup">
+                        <h2>Closing Fees</h2>
+                        <a class="close" href="#sellingfeeequation">&times;</a>
+                        <div class="content">
+                            This varies based on product price range and starts from Rs 4/-.<br>
+                            <a href="https://sellers.ombika.com/fixed-closing-charges/" target="_blank">Click here for more info</a>
+                        </div>
+                    </div>
+                </div>  
+            </section>
 
         <script type="text/javascript" src="index.js"></script>
 </body>
