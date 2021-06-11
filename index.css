@@ -313,6 +313,13 @@ a {
   font-size: 125%;
   font-family: "Baloo Tammudu 2", cursive;
 }
+footer {
+  text-align: center;
+  background-color: rgb(232, 237, 255);
+  color: #111;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
 /* responsive */
 
 @media (max-width: 1370px) {
