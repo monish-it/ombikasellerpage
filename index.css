@@ -364,10 +364,16 @@ footer {
   .sellcharge .popup {
     width: 70%;
   }
+  footer {
+    font-size: 15px;
+  }
 }
 @media (max-width: 720px) {
   .sociallink {
     display: none;
+  }
+  footer {
+    font-size: 10px;
   }
 }
 @media (max-width: 600px) {
