@@ -415,6 +415,9 @@ footer {
   #sellhead {
     font-size: 40px;
   }
+  .sellcharge .descrip {
+    font-size: 20px;
+  }
 }
 @media (max-width: 350px) {
   #title {
